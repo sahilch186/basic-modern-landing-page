@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16-Nov-2021 Task</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Brand Logo can be Replaced with image kindly set size of image as per need -->
+        <a href="#" class="brand-logo">
+            <h5>Logo</h5>
+        </a>
+        <!-- Menu Button for mobile & tablets -->
+        <button class="humburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!-- Menu List -->
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link active">Home</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">About Us</a>
+            </li>
+            <!-- Menu with Dropdown -->
+            <li class="menu-item has-dropdown">
+                <a href="#" class="menu-link">Services</a>
+                <ul class="dropdown">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Web Development</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">App Development</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Graphics Designing</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Sections -->
+    <main>
+        <!-- Slider Section -->
+        <section class="slider">
+            <!-- Slider Image -->
+            <div class="slides">
+                <div class="slide">
+                    <img src="assets/img/slider/1.jpg" alt="Slide 1">
+                </div>
+            </div>
+            <div class="arrows">
+                <button class="prev">&#8592;</button>
+                <button class="next">&#8594;</button>
+            </div>
+            <div class="thumbnails">
+                <div class="thumbnail active">
+                    <img src="assets/img/slider/1.jpg" alt="Slide 1">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/img/slider/2.jpg" alt="Slide 2">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/img/slider/3.jpg" alt="Slide 3">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/img/slider/4.jpg" alt="Slide 4">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/img/slider/5.jpg" alt="Slide 5">
+                </div>
+                <div class="thumbnail">
+                    <img src="assets/img/slider/6.jpg" alt="Slide 6">
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <div class="tabs">
+                <ul class="tab-list">
+                    <li>
+                        <h4 class="tab-opener active">About Us <span>&#10006;</span></h4>
+                        <p class="tab-content show">Convergence Services is a holistic IT service provider. We have the
+                            expertise to handle all your IT related issues that
+                            include customized software and website development, Search Engine Optimization, E-commerce
+                            solutions, Content
+                            Management Systems (Joomla, WordPress, Drupal, etc.) and anything under the scope of web
+                            development and IT services.</p>
+                    </li>
+                    <li>
+                        <h4 class="tab-opener">Our Vision <span>&#10006;</span></h4>
+                        <p class="tab-content">Exceed client expectations with high-quality solutions at the most
+                            affordable prices</p>
+                    </li>
+                    <li>
+                        <h4 class="tab-opener">Our Mission <span>&#10006;</span></h4>
+                        <p class="tab-content">Empower companies by providing the most proficient and globally
+                            recognized business and technology solutions
+                            Use our expertise to enable technology at the most affordable prices
+                            Partner our clients in their growth by creating substantial ROI for every service they
+                            invest in with us
+                            Be a responsible organization by contributing to the country’s growth by helping local
+                            companies grow with technology</p>
+                    </li>
+                </ul>
+
+                <div class="content-box"></div>
+
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>Services</h2>
+            <ul class="accordion">
+                <li class="accordion-item">
+                    <div class="accordion-opener">Web Development <span>&#10006;</span></div>
+                    <p class="content">
+                        Web development is the work involved in developing a Web site for the Internet (World Wide
+                        Web)
+                        or an intranet (a
+                        private network)
+                    </p>
+                </li>
+
+                <li class="accordion-item">
+                    <div class="accordion-opener">App Development <span>&#10006;</span></div>
+                    <p class="content">
+                        Mobile app development is a process for building mobile applications that run on mobile
+                        devices.
+                    </p>
+                </li>
+
+                <li class="accordion-item">
+                    <div class="accordion-opener">Graphics Designing <span>&#10006;</span></div>
+                    <p class="content">
+                        Graphic design is a craft where professionals create visual content to communicate messages.
+                        By
+                        applying visual
+                        hierarchy and page layout techniques, designers use typography and pictures to meet users'
+                        specific needs and focus on
+                        the logic of displaying elements in interactive designs, to optimize the user experience.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="form">
+            <h2>Form Validation</h2>
+            <form action="#" class="validate-form">
+                <div class="form-group w-50">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-input" id="name" name="name" placeholder="Enter Your Full Name"
+                        required>
+                    <small class="validate-notice"></small>
+                </div>
+                <div class="form-group w-50">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-input" id="email" name="email"
+                        placeholder="Enter Your Email Address" required>
+                    <small class="validate-notice"></small>
+                </div>
+                <div class="form-group w-100">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-input" id="password" name="password"
+                        placeholder="Enter Your Password" required>
+                    <small class="validate-notice">Password must contain atleast 1 Uppercase, 1 Lowercase, 1 Number, 1
+                        Special Character and total Characters must be more than 8 Characters</small>
+                </div>
+                <div class="form-group w-100">
+                    <label for="about" class="form-label">About Yourself</label>
+                    <textarea name="about" id="about" class="form-input" rows="6" required></textarea>
+                    <small class="validate-notice"></small>
+                </div>
+                <div class="form-group w-50">
+                    <label for="image" class="form-label">Your Image</label>
+                    <input type="file" class="form-input" id="image" name="image" accept="image/*" required>
+                    <small class="validate-notice">Accepts Image types jpg, png & jpeg only & Image size
+                        smaller than 2 MB</small>
+                </div>
+                <div class="form-group w-50">
+                    <label for="intrest" class="form-label">Intrested in</label>
+                    <select name="intrest" id="intrest" class="form-input" required>
+                        <option value="" selected>Select Intrest</option>
+                        <option value="graphic">Graphic Designing</option>
+                        <option value="frontend">Frontend Development</option>
+                        <option value="backdend">Backend Development</option>
+                        <option value="dev">DevOps Engineering</option>
+                        <option value="cloud">Cloud Engineering</option>
+                    </select>
+                    <small class="validate-notice"></small>
+                </div>
+                <div class="form-group w-100">
+                    <label class="form-label">Gender</label>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female" class="form-check-label">Female</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="gender" id="others" value="others">
+                        <label for="others" class="form-check-label">Others</label>
+                    </div>
+                    <small class="validate-notice"></small>
+                </div>
+                <small class="validate-notice"></small>
+                <button type="submit" class="btn" id="submitForm"> Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        Created By Sahil Chougale @ Convergence Services
+    </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
